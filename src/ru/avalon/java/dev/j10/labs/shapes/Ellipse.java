@@ -23,7 +23,12 @@ public interface Ellipse {
     /**
      * Возвращает длину эллипса.
      *
+     * @param lenght
      * @return длина эллипса
      */
     float getLength();
+    
+    // возвращает радиус 
+    float getRadius();
+
 }
